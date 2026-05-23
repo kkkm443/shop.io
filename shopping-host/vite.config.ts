@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // 예: 레포 이름이 "ai-shopping-host" 이면 '/ai-shopping-host/'
 export default defineConfig({
   plugins: [react()],
-  base: '/ai-shopping-host/',
+  base: '/shop.io/',
 })
