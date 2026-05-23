@@ -96,7 +96,7 @@ const db = getFirestore(app);
 const appId = typeof __app_id !== "undefined" ? __app_id : "default-app-id";
 
 // 내부 시스템 API 키
-const apiKey = "AIzaSyAFQm8G8Yb8UayJ_vSglILLLvTr41q37PM";
+const apiKey = "AIzaSyAvNCFP29yHDzi5QzvxVZxXo2oOuVgX-g4";
 
 const fetchWithRetry = async (url, options, retries = 3) => {
   const delays = [1000, 2000, 4000];
